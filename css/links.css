@@ -1,0 +1,26 @@
+<style>
+#links
+a:normal{
+	font-weight:none;
+}
+#links
+a:link  {
+    color:#00A2FF
+}
+#links
+a:visited{
+	color:#75C7FD
+}
+#links
+a:hover{
+	color:#00FFFF
+}
+#links
+a:active{
+	color:#6DADF7
+}
+#links{
+	font-family:verdana
+}
+
+</style>

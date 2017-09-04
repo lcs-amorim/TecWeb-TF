@@ -1,0 +1,24 @@
+<style>
+
+
+#img{
+	background-image: url("/pagina-completa/img/banner1.png");
+	width: 100px;
+	height: 100px;
+	float: left;
+	
+}
+#txt1{
+	font-family: century gothic;
+	width: 800px;
+	height: 100px;
+	float: left;
+	text-align: center; 
+}
+
+.header {
+  background-color: #80A1BF;
+  color: #fff;
+}
+
+</style>
