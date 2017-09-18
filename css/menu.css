@@ -25,7 +25,32 @@
 .menu ul a{
     color:#b5b5b5;
 }
-@media screen and (max-width: 1290px){
+
+
+@media screen and (max-width: 1366px){
+.menu ul li { display: flex;
+    width:94%;
+}
+.menu ul li a:hover {
+    display: flex;
+    width:94%;
+    background-color:black;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+.menu ul {
+   display: flex;
+   width: 94%;
+   justify-content: space-around;
+    background-color:black;
+    list-style:none;
+    justify-content: row;
+    border:2px solid #EA0000;
+}
+.menu ul a{
+    color:#b5b5b5;
+}
+@media screen and (max-width: 675px){
     .menu ul {
 	width:92%;
         display: flex;
