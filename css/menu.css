@@ -66,4 +66,20 @@
         align-items: column;
         border:1px solid #EA0000;
     }
+@media screen and (max-width: 375px){
+    .menu ul {
+	width:89%;
+        display: flex;
+        justify-content: space-around;
+         background-color:black;
+         list-style:none;
+         border:2px solid #EA0000;
+	font-size:11px;
+    }
+    .menu ul li { 
+	width:81%;
+	display: flex;
+        align-items: column;
+        border:1px solid #EA0000;
+    }
 </style>
