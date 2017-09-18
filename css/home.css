@@ -33,3 +33,10 @@ div.image3{
  width:460px;
     
  }
+  
+ @media screen and (max-width: 375px){
+ div.image{
+ content:url(../img/resumo621.png);
+ width:375px;
+}
+
