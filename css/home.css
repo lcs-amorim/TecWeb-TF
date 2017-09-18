@@ -33,10 +33,30 @@ div.image3{
  width:460px;
     
  }
-  
- @media screen and (max-width: 375px){
+
+@media screen and (max-width: 375px){
  div.image{
  content:url(../img/resumo621.png);
  width:375px;
 }
 
+div.image1{
+  content:url(../img/375px-aluno1.png);
+   width:375px;
+   display: block;
+    margin: auto;
+
+}
+div.image2{
+   content:url(../img/375px-aluno2.png);
+     width:375px;
+   display: block;
+    margin: auto;
+
+}
+div.image3{
+  content:url(../img/375px-aluno3.png);
+   width:375px;
+   display: block;
+    margin: auto;
+}
