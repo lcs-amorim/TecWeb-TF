@@ -1,0 +1,35 @@
+
+div.image{
+  content:url(../img/resumo.png);
+   width:100%;
+   display: block;
+    margin: auto;
+
+}
+div.image1{
+  content:url(../img/aluno1.png);
+   width:400px;
+   display: block;
+    margin: auto;
+
+}
+div.image2{
+   content:url(../img/aluno2.png);
+     width:400px;
+   display: block;
+    margin: auto;
+
+}
+div.image3{
+  content:url(../img/aluno3.png);
+   width:400px;
+   display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 620px){
+ div.image{
+ content:url(../img/resumo620.png);
+ width:460px;
+    
+ }

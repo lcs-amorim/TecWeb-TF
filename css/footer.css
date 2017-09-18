@@ -1,0 +1,43 @@
+<style>
+
+.fonte{
+ font-family: century gothic;
+ text-align: center;
+ font-size: 10px;
+	
+}
+
+.footer {
+  color: #b5b5b5;
+align: center;
+background-color: black;
+}
+
+img.acende {
+opacity: 0.4; 
+-moz-opacity: 0.4;
+Filter: Alpha(Opacity=90)
+ max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+img.acende:hover {
+opacity: 1.0; 
+-moz-opacity: 1.0;
+Filter: Alpha(Opacity=100)
+-moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.caixa{
+ display:flex;
+ justify-content: center;
+}
+
+
+
+
+</style>
