@@ -4,7 +4,7 @@
 }
 table {
     
-    width: 100%;
+    width: 84%;
     font-size:17px;
 }
 
@@ -16,11 +16,16 @@ td {
     border-bottom: 1px solid #ddd;
 }
 
-@media screen and (max-width: 640px){
+@media only screen and (max-width: 640px){
 table {
     width:100%;
     font-size:13px;
 }
 
+@media only screen and (max-width: 375px){
+table {
+    width:100%;
+    font-size:12px;
+}
 
 </style>
