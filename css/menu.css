@@ -58,7 +58,7 @@
          background-color:black;
          list-style:none;
          border:2px solid #EA0000;
-	font-size:15px;
+	font-size:14px;
     }
     .menu ul li { 
 	width:78%;
@@ -66,9 +66,9 @@
         align-items: column;
         border:1px solid #EA0000;
     }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 480px){
     .menu ul {
-	width:89%;
+	width:88%;
         display: flex;
         justify-content: space-around;
          background-color:black;
