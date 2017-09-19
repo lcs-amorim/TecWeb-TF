@@ -23,4 +23,25 @@ box-sizing:border-box;
   color: #b5b5b5;
 
 }
+@media only screen and (max-width: 480px){
+.img{
+	background-image: url("/pagina-completa/img/banner1.png");
+	width: 450px;
+	height: 200px;
+	float: right;
+	
+}
+.txt1{
+	font-family: "century gothic";
+	
+	float: left;
+	text-align: center; 
+	font-size:18;
+}
+
+.header {
+  background-color:black;
+  color: #b5b5b5;
+
+}
 </style>
