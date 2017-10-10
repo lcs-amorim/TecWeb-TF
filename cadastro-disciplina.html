@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 <head>
 <link rel="icon" type="image/png" href="http://www.impacta.edu.br/wp-content/themes/impacta/img/favicon.png" />
 <title>Projeto TecWeb</title>
@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/footer.css"/>
 <link rel="stylesheet" type="text/css" href="css/home.css"/>
 <link rel="stylesheet" type="text/css" href="css/fontes.css"/>
+<link rel="stylesheet" type="text/css" href="css/form.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body background="img/back.png">
@@ -55,15 +56,16 @@ Senha :<input name="senha" type="password">
 </div>
 <hr size=1 width=87% align=center noshade color="#EA0000">
 <font color="white"><div align="center">CADASTRO DE NOVA DISCIPLINA:</div><br>
+<div class="forms">
 <form align=center>
   <label for="primeironomeprof"> Primeiro Nome Professor:</label><br>
-   <input type="text" name="primeironomeprof" id="primeironomeprof" required><br><br>
+   <input type="text" name="primeironomeprof" id="primeironomeprof" required class="input"><br><br>
   <label for="ultimonomeprof">Último Nome Professor:</label><br>
-   <input type="text" name="ultimonomeprof" id="ultimonomeprof" required><br><br>
+   <input type="text" name="ultimonomeprof" id="ultimonomeprof" required class="input"><br><br>
  Quantidade de Horas Mensais:<br>
-    <input type="number" name="ra" id="ra" min="1" max="240" required><br><br>
+    <input type="number" name="ra" id="ra" min="1" max="240" required class="input"><br><br>
   Duração da Aula:<br>
-    <input type="number" name="ra" id="ra" min="1" max="60" required><br><br>
+    <input type="number" name="ra" id="ra" min="1" max="60" required class="input"><br><br>
   Dia de Semana a ser ministrada:<br>
     <input name="diasemana" type="checkbox" value="segunda">Segunda-feira<br>
     <input name="diasemana" type="checkbox" value="segunda">Terça-feira<br>
@@ -74,9 +76,10 @@ Senha :<input name="senha" type="password">
   <textarea rows="7" cols="30" maxlength="500" name="resumo" id="input_resumo"></textarea>
 <br><br>
   
-  <input type="submit" value="Enviar">
-  <input type="reset" value="Limpar">
+  <input type="submit" value="Enviar" class="input">
+  <input type="reset" value="Limpar" class="input">
 </form>
+</div>
 
 <hr size=1 width=87% align=center noshade color="#EA0000">
 <div align="center">
