@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 <head>
 <link rel="icon" type="image/png" href="http://www.impacta.edu.br/wp-content/themes/impacta/img/favicon.png" />
 <title>Projeto TecWeb</title>
@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/footer.css"/>
 <link rel="stylesheet" type="text/css" href="css/home.css"/>
 <link rel="stylesheet" type="text/css" href="css/fontes.css"/>
+<link rel="stylesheet" type="text/css" href="css/form.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body background="img/back.png">
@@ -54,21 +55,23 @@ Senha :<input name="senha" type="password">
 </div>
 </div>
 <hr size=1 width=87% align=center noshade color="#EA0000">
+<div class="forms">
 <font color="white"><div align="center">ESQUECI MINHA SENHA:</div><br>
 <form align=center>
    E-mail:<br>
-    <input type="email" name="email" placeholder="exemplo@provedor.com"><br><br>
+    <input type="email" name="email" placeholder="exemplo@provedor.com" class="input"><br><br>
   <label for="nome">Nome Completo:</label><br>
-   <input type="text" name="nome" id="nome" required><br><br>
+   <input type="text" name="nome" id="nome" required class="input"><br><br>
   RA:<br>
-    <input type="number" name="ra" id="ra" min="1" max="9999999" required><br><br>
+    <input type="number" name="ra" id="ra" min="1" max="9999999" required class="input"><br><br>
   
-  Nova Senha :<br><input name="senha" type="password">
+  Nova Senha :<br><input name="senha" type="password" class="input">
   <br><br>
-  Confirmação de Senha :<br><input name="confirmasenha" type="password"><br><br>
-  <input type="submit" value="Enviar">
-  <input type="reset" value="Limpar">
+  Confirmação de Senha :<br><input name="confirmasenha" type="password" class="input"><br><br>
+  <input type="submit" value="Enviar" class="input">
+  <input type="reset" value="Limpar" class="input">
 </form>
+</div>
 
 <hr size=1 width=87% align=center noshade color="#EA0000">
 <div align="center">
