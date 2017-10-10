@@ -1,0 +1,32 @@
+.input, select{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input[type=submit]:hover {
+    background-color: #45a049;
+    color:#b5b5b5
+}
+
+.input[type=reset]:hover {
+    background-color: #ea0000;
+    color:#b5b5b5
+}
+.forms{
+    border-radius: 5px;
+    background-color: #2d2d2d;
+    padding: 20px;
+}
+
+textarea{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
