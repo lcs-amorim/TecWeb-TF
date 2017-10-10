@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 <head>
 <link rel="icon" type="image/png" href="http://www.impacta.edu.br/wp-content/themes/impacta/img/favicon.png" />	
 <title>Projeto TecWeb</title>
@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/footer.css"/>
 <link rel="stylesheet" type="text/css" href="css/home.css"/>
 <link rel="stylesheet" type="text/css" href="css/fontes.css"/>
+<link rel="stylesheet" type="text/css" href="css/form.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body background="img/back.png">
@@ -22,7 +23,7 @@
 <h1><br>Faculdade Impacta de Tecnologia</h1>
 </div>
 </div>
-<br><br><br><br>
+<br><br><br><br><br><br><br>
 <form method="post" align=right class="links">
 Usuário:<input name="usuario">
 <br>
@@ -34,10 +35,6 @@ Senha :<input name="senha" type="password">
 <a href="cadastro.html">Cadastrar</a>
 <a href="esqueceu-senha.html">Esqueci minha senha</a>
 </form>
-
-
-<br><br>
-</header>
 	
 		<div align="center">
 				<div class="menu">
@@ -53,17 +50,19 @@ Senha :<input name="senha" type="password">
 				
 </div>
 </div>
+</header>
 <hr size=1 width=87% align=center noshade color="#EA0000">
+<br>
+<div class="forms">
 <div class="grey font" align="center"> FALE CONOSCO</div>
 <br><br>
 <font color="b5b5b5"><form align="center">
-<br>
 <form>
 <label for="input_nome"> Nome Completo:</label><br>
-   <input type="text" name="nome" id="input_nome" required><br>
+<input type="text" name="nome" id="input_nome" placeholder="Primeiro Nome" required class="input"><br>
 <br>
 <label for="input_email">E-mail:</label><br>
-    <input type="email" name="email" id="input_email" placeholder="exemplo@provedor.com" required><br><br>
+ <input type="email" name="email" id="input_email" placeholder="exemplo@provedor.com" required class="input"><br><br>
 <label for="assunto">Assunto:</label>
   <br>
   <select name="input_assunto" id="input_assunto" required>
@@ -77,18 +76,11 @@ Senha :<input name="senha" type="password">
 <label for="input_mensagem">Mensagem: (max 180 caracteres)</label><br>
   <textarea rows="5" cols="30" maxlength="180" name="mensagem" id="input_mensagem"></textarea>
 <br><br>
-  <input type="submit" value="Enviar">
-  <input type="reset" value="Limpar">
+  <input type="submit" value="Enviar" class="input">
+  <input type="reset" value="Limpar" class="input">
+</div>
 </form>
-
-
-
-
-
-
-
-
-
+<br>
 <hr size=1 width=87% align=center noshade color="#EA0000">
 <div align="center">
 <a href="http://www.impacta.edu.br/vestibular/" target="_blank"><img src="img/ad01.png" width="250" height="250" alt="ad_vestibular"></a>
