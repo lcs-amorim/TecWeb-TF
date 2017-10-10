@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 <head>
 <link rel="icon" type="image/png" href="http://www.impacta.edu.br/wp-content/themes/impacta/img/favicon.png" />
 <title>Projeto TecWeb</title>
@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/footer.css"/>
 <link rel="stylesheet" type="text/css" href="css/home.css"/>
 <link rel="stylesheet" type="text/css" href="css/fontes.css"/>
+<link rel="stylesheet" type="text/css" href="css/form.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body background="img/back.png">
@@ -36,8 +37,7 @@ Senha :<input name="senha" type="password">
 </form>
 
 
-<br><br>
-</header>
+<br>
 	
 		<div align="center">
 				<div class="menu">
@@ -53,24 +53,26 @@ Senha :<input name="senha" type="password">
 				
 </div>
 </div>
+</header>
 <hr size=1 width=87% align=center noshade color="#EA0000">
+<div class="forms">
 <font color="white"><div align="center">CADASTRO DE NOVO USUÁRIO (PARTE 01 DE 02)</div>
 <form align=center>
   <label for="primeironome"> Primeiro Nome:</label><br>
-   <input type="text" name="primeironome" id="primeironome" required><br><br>
+   <input type="text" name="primeironome" id="primeironome" required class="input"><br><br>
   <label for="ultimonome">Último Nome:</label><br>
-   <input type="text" name="ultimonome" id="ultimonome" required><br><br>
+   <input type="text" name="ultimonome" id="ultimonome" required class="input"><br><br>
   Sexo:<br>
     <input type="radio" name="gender" value="male" checked> Masculino
      <input type="radio" name="gender" value="female"> Feminino<br><br>
   Data de Nascimento:<br>
-    <input type="date" name="bday" required><br><br>
+    <input type="date" name="bday" required class="input"><br><br>
   RA:<br>
-    <input type="number" name="ra" id="ra" min="1" max="9999999" required><br><br>
+    <input type="number" name="ra" id="ra" min="1" max="9999999" required class="input"><br><br>
   E-mail:<br>
-    <input type="email" name="email" placeholder="exemplo@provedor.com"><br><br>
+    <input type="email" name="email" placeholder="exemplo@provedor.com" class="input"><br><br>
   Telefone:<br>
-    <input type="tel" name="tel" placeholder="(011) xxxxx-xxxx">
+    <input type="tel" name="tel" placeholder="(011) xxxxx-xxxx" class="input">
 <br><br>
   Curso:
   <br>
@@ -87,7 +89,7 @@ Senha :<input name="senha" type="password">
   <option value="curso">Sistemas da Informação</option>
   </select>
   <br><br>
-  Senha :<br><input name="senha" type="password" maxlenght="10">
+  Senha :<br><input name="senha" type="password" maxlenght="10" required class="input">
   <br>
 
 <hr size=1 width=35% align=center noshade color="#EA0000">
@@ -123,20 +125,21 @@ Senha :<input name="senha" type="password">
    </select>
  <br><br>
   Cidade:<br>
-  <input type="text" name="cidade">
+  <input type="text" name="cidade" class="input">
   <br><br>
   Bairro:<br>
-  <input type="text" name="bairro">
+  <input type="text" name="bairro" class="input">
   <br><br>
   Endereço:<br>
-  <input type="text" name="endereco">
+  <input type="text" name="endereco" class="input">
   <br><br>
   Número:<br>
-  <input type="number" name="firstname">
+  <input type="number" name="firstname" class="input">
   <br><br>
-  <input type="submit" value="Enviar">
-  <input type="reset" value="Limpar">
+  <input type="submit" value="Enviar" class="input">
+  <input type="reset" value="Limpar" class="input">
 </form>
+</div>
 
 <hr size=1 width=87% align=center noshade color="#EA0000">
 <div align="center">
